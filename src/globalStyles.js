@@ -9,4 +9,8 @@ export const GlobalStyles = createGlobalStyle`
         background-color: #000;
         font-size: 16px;
     }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
 `;
